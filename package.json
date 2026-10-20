@@ -1,0 +1,17 @@
+{
+  "name": "@modevc/radar-mcp",
+  "version": "1.0.0",
+  "description": "Mode VC Radar Model Context Protocol Server",
+  "homepage": "https://modevc.com",
+  "license": "MIT",
+  "author": "Alex Liu <alex@forj.network>",
+  "main": "index.js",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "venture-capital",
+    "investor-theses",
+    "sec-form-d",
+    "benchmarks"
+  ]
+}
