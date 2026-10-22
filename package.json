@@ -1,17 +1,29 @@
 {
   "name": "@modevc/radar-mcp",
-  "version": "1.0.0",
-  "description": "Mode VC Radar Model Context Protocol Server",
+  "version": "2.1.0",
+  "description": "Mode VC Radar MCP & W3C WebMCP Server: 39 AI venture charts, 3,650 VC firms, SEC Form D lookups, and 8 founder calculators.",
   "homepage": "https://modevc.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexbuilding/modevc-radar-mcp.git"
+  },
   "license": "MIT",
-  "author": "Alex Liu <alex@forj.network>",
+  "author": "Alex Building <342194859+alexbuilding@users.noreply.github.com>",
   "main": "index.js",
+  "bin": {
+    "modevc-radar-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js --self-test"
+  },
   "keywords": [
     "mcp",
     "model-context-protocol",
+    "webmcp",
     "venture-capital",
-    "investor-theses",
     "sec-form-d",
-    "benchmarks"
+    "ai-charts",
+    "founder-calculators"
   ]
 }
